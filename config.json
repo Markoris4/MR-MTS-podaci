@@ -1,6 +1,6 @@
 {
     "italic_poruke": {
-        "Fizička i pravna lica": "Prilikom podešavanja Avaya one-X\nServer list: 10.1.23.15 \nPrilikom logovanja password: 1111",
+        "Fizička i pravna lica": "Prilikom podešavanja Avaya one-X\nServer list: 10.1.23.1516 \nPrilikom logovanja password: 1111",
         "Procedure": "Proveriti da li je prošlo 24h od trenutka prijave.\nProveriti da li poziva sa broja koji se vodi na vlasnika usluge ukoliko se vrši promena na WIFI mreži.",
         "Multiservis": "Da li se prilikom prekida na televiziji pojavljuje crna slika, zamrzava se slika ili je na ekranu neka poruka?",
         "TEL": "Da li je ispravan TA? I da li je povezan u utičnicu?",
@@ -804,4 +804,5 @@
             "Kraj smene": "Radiš verovatno i sutra. A onda ponovo MSAT, crvena lampica i nema signala na TV-u. Srećno i samo lagano."
         }
     }
+
 }
