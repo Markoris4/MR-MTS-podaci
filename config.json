@@ -1,0 +1,807 @@
+{
+    "italic_poruke": {
+        "Fizička i pravna lica": "Prilikom podešavanja Avaya one-X\nServer list: 10.1.23.15 \nPrilikom logovanja password: 1111",
+        "Procedure": "Proveriti da li je prošlo 24h od trenutka prijave.\nProveriti da li poziva sa broja koji se vodi na vlasnika usluge ukoliko se vrši promena na WIFI mreži.",
+        "Multiservis": "Da li se prilikom prekida na televiziji pojavljuje crna slika, zamrzava se slika ili je na ekranu neka poruka?",
+        "TEL": "Da li je ispravan TA? I da li je povezan u utičnicu?",
+        "ADSL": "Da li je na ruteru oznaka MTS ili Telekom Srbija?",
+        "IPTV": "Da li je ispravan HDMI kabl? Da li su zamenjene baterije u daljinskom upravljaču?",
+        "MSAT": "Obavezna provera na kojoj se adresi nalazi usluga? Da li ima kanale sa numeracijom iznad 1000? Da li reaguje daljinski kada se pritisne menu taster?",
+        "BIZZ": "Kada je prekid nastao? Promeniti Uticaj i hitnost ako je potrebno. Mail nakon 48 h.\nMobilna: uvek tražiti primere i testiranja u drugom uređaju."
+    },
+    "LINKOVI_FIZICKA_LICA": [
+        {
+            "type": "title",
+            "text": "App za provere",
+            "foreground": "red",
+            "font_size": 17,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Siebel Communications for Wireless",
+            "url": "https://crm20.it.telekom.yu/siebel/app/eCommunicationsWireless/srb?SWECmd=Logoff&SWETS=1740238655707&SWEPreLd=1",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Siebel",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "NA-C Core Platform",
+            "url": "http://172.29.52.18/nac-cp/login.jsp",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  NA",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "BMC Remedy Mid Tier 9.1",
+            "url": "http://tts81.telekom.rs/arsys/shared/login.jsp?/arsys/forms/kattsarsul2/SHR%3ALandingConsole/Default+Administrator+View/?cacheid=c907a0b1",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  TTS",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Oracle Application Server Forms Services",
+            "url": "http://appservers.it.telekom.yu/forms/frmservlet?config=ccbs",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  TIS",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Oracle Application Server Forms Services2",
+            "url": "http://kaoapp1.it.telekom.yu/forms/frmservlet?config=ccbs",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  TIS link 2",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Oracle Application Server Forms Services3",
+            "url": "http://kaoapp2.it.telekom.yu/forms/frmservlet?config=ccbs",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  TIS link 3",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "PMP - Professional Management Platforms",
+            "url": "http://10.14.239.5:8088/pmp/",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  PMP",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "SMP - Service Management Platform",
+            "url": "https://kakcsmpappvip.it.telekom.yu/auth/realms/smp/protocol/openid-connect/auth?client_id=smp-portal&redirect_uri=https%3A%2F%2Fkakcsmpappvip.it.telekom.yu%2Fportal%2Fcsp%2F&state=37fe4330-440e-456e-b1aa-52021cfa7536&response_mode=fragment&response_type=code&scope=openid&nonce=d4071eee-0346-4d29-80d2-b069772d3192",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  SMP",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "C4 Start",
+            "url": "https://outlook.office.com/local/path/file:////kakcfs/c4/C4.application%3Cfile://kakcfs/c4/C4.application%3E",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  C4 Windows search",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "title",
+            "text": "FIKSNA",
+            "foreground": "blue",
+            "font_size": 17,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Intraweb prekidi",
+            "url": "http://bizintraweb.telekom.rs/liste/smetnje_fiksna/index.php",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Prekidi u toku",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "mtsTV",
+            "url": "http://bizintraweb/liste/mtstv/kanali_novo.php",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  TV kanali Intraweb",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "TV oprema",
+            "url": "http://bizintraweb.telekom.rs/liste/telefoni/TV_oprema/index.php",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Intraweb oprema",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Adrese poslovnica",
+            "url": "http://bizintraweb.telekom.rs/liste/adrese/index.php",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Adrese i radno vreme poslovnica",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "GPON adrese",
+            "url": "https://telekomsrbija.sharepoint.com/sites/Intraweb/SitePages/ALL-IP-adrese.aspx",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Dostupnost optike po adresama",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Intraweb",
+            "url": "http://intraweb/",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Intraweb start",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Preusmeravanje dolaznih poziva",
+            "url": "http://intraweb/fiksna/index.php/telefon/telefon-usluge/sve-usluge/679-telefon-usluge-preusmeravanje",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Kodovi za preusmeravanje",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "title",
+            "text": "MSAT i ANTENA",
+            "foreground": "Orange",
+            "font_size": 17,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "mSAT TV",
+            "url": "http://bizintraweb.telekom.rs/liste/mtstv/satelit.php",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  MSAT Kanali Intraweb",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "mSAT fabrička",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/WopiFrame2.aspx?sourcedoc=%7b77D2DC26-850B-4B8F-B405-F371603D9934%7d&file=mSAT%20-%20Nivo%20signala%20-%20Fabri%C4%8Dka%20pode%C5%A1avanja.pdf&action=default",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  mSAT - Nivo signala - Fabrička podešavanja",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Meni STB uređaja",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/WopiFrame2.aspx?sourcedoc=%7bACE178FF-4DC4-4B69-B599-FA466FCCAE88%7d&file=Meni%20STB%20ure%C4%91aja.pdf&action=default",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  mSAT Meni STB uređaja",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Pitalice za Antenu Plus",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/WopiFrame2.aspx?sourcedoc=%7b0D14357F-53B3-40DD-A3AD-C7B4C599F088%7d&file=Pitalice%20za%20Antenu%20Plus.pdf&action=default",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Antena plus provere",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Antena plus",
+            "url": "http://intraweb.telekom.rs/fiksna/index.php/tv/antena-plus",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Antena plus karakteristike  ",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Antena plus smetnje",
+            "url": "http://intraweb.telekom.rs/fiksna/index.php/tv/mtstv-smetnje/antena-plus?showall=&start=1",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Najčešće smetnje za antenu plus",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Oprema mSAT (daljinski)",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/KC%20Fiksna%20Telefonija/Razmena/0800/0800/m-SAT%20TV/Daljinski%20upravlja%C4%8Di%20-%20mSAT.pdf#search=sinhronizacija%20daljinskog%20msat",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  mSAT daljinski upravljači",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "title",
+            "text": "Ostalo",
+            "foreground": "turquoise",
+            "font_size": 17,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Calabrio Teleopti WFM",
+            "url": "http://kakcteleoptiweb/TeleoptiWFM/Web/MyTime#TeamSchedule/Index",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Teleopti/Raspored",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Problemi agenata",
+            "url": "http://kakcbriga/cc_problemi/index.php",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Za unos svih problema u radu",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "DALJINSKI - 19771 - All Items",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/start.aspx#/Lists/DALJINSKI%20%2019771/AllItems.aspx",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-slanje daljinskih na kućnu adresu",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Transferi novi link",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/kc/_layouts/15/start.aspx#/Lists/Transferi%20novi/AllItems.aspx",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-pogrešni transferi",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "MTS mail",
+            "url": "https://webmail.mts.rs/SOGo/",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  WEBMAIL MTS",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Mail parametri",
+            "url": "https://mts.rs/Privatni/Korisnicka-zona/Cesta-pitanja/E-mail/Usluge/a3687-Koji-su-parametri-za-podesavanje-e-mail-klijenta.html",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Parametri za Mail klijent",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "ZTE H168N",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/WopiFrame2.aspx?sourcedoc=%7bA3B6775E-12E0-41D4-A300-94DE63D02E5E%7d&file=ZTE%20H168N%20Screenshot.pdf&action=default",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-Ruter ZTE H168N",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Ruter Nokia G-2425G-B",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/WopiFrame2.aspx?sourcedoc=%7b4F3A0180-6050-4DF2-A532-BE9BFD3FBC7B%7d&file=Nokia%20G-2425G-B%20-%20User%20Manual.pdf&action=default",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-Nokia G-2425G-B",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Uputstvo za Wifi",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/KC%20Fiksna%20Telefonija/Razmena/0800/0800/ADSL/WI-FI%20extenderi%20i%20PLA%20ure%C4%91aji/Uputstvo%20za%20WiFi%20-%20Namenjeno%20instalaterima%20terminalne%20opreme.pdf#search=ADAPTER%20PLA%20D%2DLINK",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-Uputstvo za instalatere terminalne opreme",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "PLA uređaj",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/WopiFrame2.aspx?sourcedoc=%7b27145E6C-CE3C-47B4-A321-B05B31197B78%7d&file=PLA%20-%20Uputstvo.pdf&action=default",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-PLA detaljno uputstvo",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Početna stranica portal",
+            "url": "https://telekomsrbija.sharepoint.com/sites/mojportal",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Portal za zaposlene Telekom Srbija",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "SuccessFactors: Početna stranica SAP",
+            "url": "https://performancemanager.successfactors.eu/sf/start?_s.crb=haXaGGQ81uxr6vf36H6AaH%252f1HGSwfN7KPLIphy%252fPUnI%253d",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  SAP-za unos odsustva",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "RUTERI - All Documents",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/start.aspx#/KC%20Fiksna%20Telefonija/Razmena/0800/0800/ADSL/RUTERI",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-informacije i uputstva svih rutera",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Extenderi i PLA uređaji",
+            "url": "https://telekomsrbija.sharepoint.com/sites/Intraweb/SitePages/WiFi-extenderi-i-PLA-ure%C4%91aji.aspx",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Uređaji i cene uz pakete-Extenderi i PLA",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "title",
+            "text": "BIZZ SKILL APP",
+            "foreground": "purple",
+            "font_size": 17,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Customer Care & Report Viewer",
+            "url": "http://vassdp.telekom.rs:8180/TS_SDP_Web_CC/index.xhtml",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  SDP",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Mformation Service Manager Login page",
+            "url": "http://10.111.73.13:6080/jsp/login/login.jsp?SE=1",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  MDM",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "CBiO login",
+            "url": "http://10.1.66.79:8080/custcare_cu_rs/login",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  CBiO",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Skripta Biz",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/KC%20Fiksna%20Telefonija/Razmena/0800/0800/Biznis/Skripta%20Biz%20-%20Fiksni%20i%20mobilni%20servisi.pdf#search=biz",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-Fiksni i mobilni servisi pravna lica",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "eSIM - All Documents",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/start.aspx#/KC%20Fiksna%20Telefonija/Razmena/0800/0800/Biznis/Usluge%20mobilne%20telefonije/eSIM",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-eSIM uputstva",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "HD Batler - All Items",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/start.aspx#/Lists/HD%20Batler/AllItems.aspx",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-HD Batler",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "eFiskal incidenti",
+            "url": "http://sharepoint16.it.telekom.yu/prodaja/bk/tp/_layouts/15/start.aspx#/Lists/ICT%20helpdesk%20i%20eFiskal%20incidenti/AllItems.aspx",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Sharepoint-eFiskal",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Oblaci",
+            "url": "https://www.oblaci.rs/",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Mts oblaci- cloud servisi",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Roaming link1",
+            "url": "http://bizintraweb.telekom.rs/liste/roaming/index.php",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Roaming Bolji link",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        },
+        {
+            "type": "link",
+            "text": "Roaming link2",
+            "url": "http://intraweb/biznis/index.php/biznis-mobilna/usluge/roaming?showall=&start=2",
+            "foreground": "lightblue",
+            "font_size": 9,
+            "underline": true
+        },
+        {
+            "type": "desc",
+            "text": "  Roaming Rezervni link",
+            "foreground": "white",
+            "font_size": 10,
+            "font_weight": "bold"
+        }
+    ],
+    "skracenice_data": {
+        "Linkovi": {
+            "Fizička i pravna lica": "App za provere"
+        },
+        "Procedure": {
+            "Identifikacija korisnika": "Procedura identifikacije korisnika: \n1.Šifra korisnika-> Ime i prezime vlasnika usluge-> Adresa gde se usluga nalazi.\n2.Broj telefona u sklopu paketa fiksni/mobilni->Ime i prezime vlasnika usluge-> Adresa gde se usluga nalazi.\n3.Ime,prezime i datum rođenja vlasnika usluge a takođe i adresa.",
+            "Urgencija u okviru 24h": "NEZADOVOLJAN KORISNIK - NIJE ISTEKAO ROK ZA SANACIJU",
+            "Urgencija nakon isteka 24h": "NEZADOVOLJAN KORISNIK - ISTEKAO ROK ZA SANACIJU",
+            "Formirana linija slanje mail-a": "1)      Prezime i ime:\n2)      Broj posla za IPTV:\n3)      Broj posla za ADSL:\n4)      Broj posla za BBTF:\n5)      Matični broj:\n6)      Kontakt osoba:\n7)      Kontakt telefon:\n8)      Smetnja i datum kada je potpisan ugovor (datum potpisivanja ugovor proverite sa korisnikom) i naglasite u mail-u.:"
+        },
+        "Multiservis": {
+            "Prekid (NET+TV)": "Vršen restart opreme.Modem nema link.",
+            "Prekid (TEL+NET+TV)": "Vršen restart opreme.Modem nema link.\nTEL nema signal centrale.",
+            "Povremeni prekidi (NET+TV)": "Vršen restart opreme.\nKorisnik navodi da ima česte prekide u radu interneta i televizije.\nPrilikom prekida na televiziji se zamrzava slika na ekranu.",
+            "Povremeni prekidi (TEL+NET+TV)": "Vršen restart opreme.\nKorisnik navodi da ima česte prekide u radu interneta i televizije.\nPrekidi na televiziji se manifestuju crnom slikom na ekranu.\nTEL nema signal centrale."
+        },
+        "TEL": {
+            "Nema signal centrale": "Nema signal centrale",
+            "Blokada": "Signal zauzeća u oba smera"
+        },
+        "ADSL": {
+            "Nema link": "Vršen restart opreme.Modem nema link.",
+            "Nema link off": "Vršen restart opreme.Modem nema link. Na ruteru postoji svetlosna signalizacija.",
+            "Neispravna terminalna oprema": "Na ruteru ne postoji nikakva svetlosna signalizacija. Proverena strujna utičnica."
+        },
+        "IPTV": {
+            "Zamrzavanje": "Korisnik navodi da ima česte prekide u radu usluga, prilikom prekida na televiziji se zamrzava slika na ekranu.",
+            "Neispravan STB": "Korisnik navodi da na STB uređaju ne postoji nikakva svetlosna signalizacija. Proverena strujna utičnica.",
+            "Greška u reprodukciji": "Vršen restart opreme. I nakon restarta opreme korisnik ima prekide koji se manifestuju crnom slikom na ekranu.",
+            "Problem sa učitavanjem": "Oprema pravilno povezana, vršen restart. Na ekranu tv-a prikazana poruka \"Greška na mreži\".",
+            "CB TV režim": "CB - Podešavanje TV režima\nNa stb-u svetle 2 zelene lampice, na ekranu tv uređaja prikazana poruka nema signala.\nKorisnik ima ispravan daljinski od tv prijemnika.",
+            "CB sinhronizacija daljinskog IRIS": "CB - Podešavanje daljinskog upravljača\nKorisniku su potrebne instrukcije kako bi sinhronizovao daljinski upravljač od IRISA.\nKorisnik ima ispravan daljinski od tv prijemnika."
+        },
+        "MSAT": {
+            "MSAT nema signala": "Vršen restart opreme.Pojavi se MSAT logo na ekranu i poruka nema signala, nema prijemnog signala.\nKorisnica navodi da nije primetila da postoji neko fizičko oštećenje na antenskom sistemu.\n\nAdresa:",
+            "MSAT fabrička": "Vršen restart opreme.\nIma samo par kanala, na ostalim je poruka nema signala.\nPokrenuto vraćanje na fabrička podešavanja na vezi.\n\n Adresa:"
+        },
+        "BIZZ": {
+            "Bizkont": "Kontakt\nTEL: \nMail: @",
+            "Kritičnost servisa": "Kritični servisi:\nISDN PRI\nISDN BIZLINK\nBusiness Trunking\nIP centrex(BizFon)\nADSL (20 mb/s i više)\nInternet za poslovne korisnike\nL2 VPN\nL3 VPN\n\nNisu kritični servisi:\nPOTS\nBBTF\nISDN\nISDN BRI\nIN servisi – fiksna (FreePhone 0700; 0800)\nADSL (do 10mb/s)\nIPTV Mts Hotel TV Stream (prijava po internet za poslovne servisu)\nMSAT TV m:SAT TV Turizam (Prijava po fleksibilnim servisima)\nIris GO ",
+            "Business Trunking": "Korisnik navodi da je proverena centrala.\nNe funkcioniše numeracija:\nPrekid primećen od\n\nKontakt\nTEL: \nMail: @\n\nUputstvo:\nPrijavljuje se po lokaciji. Kada ne radi neka od linija pre prijave prvo se proverava sa korisnikom da li je proverena centrala.U napomeni tiketa je obavezno navesti kada je primećen prekid, servis je kritičan.",
+            "IP centrex": "Korisnik navodi da ne funkcioniše numeracija:\nPrekid primećen od \n\nKontakt\nTEL: \nMail: @\n\n\nUputstvo:\nPrijavljuje se po jednoj liniji i u prijavi naglasiti koje sve numeracije ne rade ako ih je više. U Kartici „Servis“, pa Oprema imamo info da li je korisnik od Telekoma dobio opremu. U napomeni tiketa je obavezno navesti kada je primećen prekid, servis je kritičan.",
+            "Internet za poslovne": "Vršen restart opreme.Na media converteru postoji svetlosna signalizacija.\nKorisnik proverio svoju opremu.\nPrekid primećen od \n\nKontakt\nTEL: \nMail: @",
+            "L3 VPN": "Korisnik navodi da je proverio svoju opremu (Unmanaged).\nVršen restart opreme.Usluga je u prekidu.\nPrekid primećen od \n\nKontakt\nTEL: \nMail: @",
+            "Mailovi za obraćanje": "Korisnički servis za mala i srednja preduzeća mojbiznis@telekom.rs\nVeliki poslovni korisnici korisnicki.biznis@telekom.rs\ntehnickapodrska@telekom.rs",
+            "Mailovi za opciju 4": "ICT:\nsales.digital@telekom.rs\nFMT - office@fmtfiscal.rs\ntehnickapodrska@fmtfiscal.com\nZeta - fiskalizacija@zeta.rs\nHCC - fiskalne.kase@galeb.com\nfiskalne.kase.podrska@telekom.rs\nLedPay - trgovci@ledpay.rs\nPhanteon  blokada - prodaja@datalab.rs\npodrska@banqup.rs\nfiskalne.kase.podrska@telekom.rs",
+            "Konfiguracione poruke MMS": "MMS PODEŠAVANJA\nU spisku svih aplikacija izaberite opciju SETTINGS\n2. Nakon odabira opcije SETTINGS u meniju izaberite stavku:\n• WIRELESS & NETWORKS i\n• MOBILE NETWORKS\n3. Kada se otvori dodatni Meni, odaberite stavku:\n• ACCESS POINT NAMES\n4. Pritisnite dugme Meni, odaberite opciju NEW APN i u polje:\n• NAME upišite mts mms\n• APN upišite mms\n• PROXY ne upisujete ništa\n• PORT ne upisujete ništa\n• USERNAME upišite mts\n• PASSWORD upišite 064\n• SERVER ne upisujete ništa\n• MMSC upišite http: //mms.mts064.telekom.rs/mms/wapenc\n• MMS PROXY upišite 172.17.85.131\n• MMS PORT upišite 8080\n• MCC upišite 220\n• MNC upišite 03",
+            "Konfiguracione poruke GPRS": "PODEŠAVANJA GPRS ANDROID\nU spisku svih aplikacija izaberite opciju SETTINGS\n2. Nakon odabira opcije SETTINGS u meniju izaberite stavku:\n• WIRELESS & NETWORKS i\n• MOBILE NETWORKS\n3. Kada se otvori dodatni Meni, odaberite stavku:\n• ACCESS POINT NAMES\n4. Pritisnite dugme Meni, odaberite opciju NEW APN i u polje:\n• NAME upišite mts internet\n• APN upišite gprswap\n• PROXY ne upisujete ništa\n• PORT ne upisujete ništa\n• USERNAME upišite mts\n• PASSWORD upišite 064\n• MCC upišite 220\n• MNC upišite 03\nAUTHENTICATION TYPE podesite na PAP\nU zavisnosti od uređaja polje APN TYPE ostavite prazno ili upišite: default"
+        },
+        "Logout": {
+            "Kraj smene": "Radiš verovatno i sutra. A onda ponovo MSAT, crvena lampica i nema signala na TV-u. Srećno i samo lagano."
+        }
+    }
+}
